@@ -1,0 +1,6 @@
+@NetwiseProject_HostAddress = http://localhost:5127
+
+GET {{NetwiseProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
