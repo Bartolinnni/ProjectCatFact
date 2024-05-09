@@ -32,3 +32,4 @@ C:\Users\barto_azqkiik\OneDrive\Pulpit\NetwiseProject\NetwiseProject\obj\Debug\n
 C:\Users\barto_azqkiik\OneDrive\Pulpit\NetwiseProject\NetwiseProject\obj\Debug\net8.0\NetwiseProject.pdb
 C:\Users\barto_azqkiik\OneDrive\Pulpit\NetwiseProject\NetwiseProject\obj\Debug\net8.0\NetwiseProject.genruntimeconfig.cache
 C:\Users\barto_azqkiik\OneDrive\Pulpit\NetwiseProject\NetwiseProject\obj\Debug\net8.0\ref\NetwiseProject.dll
+C:\Users\barto_azqkiik\OneDrive\Pulpit\NetwiseProject\NetwiseProject\obj\Debug\net8.0\NetwiseProject.sourcelink.json
