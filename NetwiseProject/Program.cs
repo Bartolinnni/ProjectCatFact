@@ -3,18 +3,16 @@ using NetwiseProject.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllers();
 
-// Add logging services with specific console logging configuration
 builder.Services.AddLogging(loggingBuilder =>
 {
-    loggingBuilder.ClearProviders(); // Clears default logging providers
+    loggingBuilder.ClearProviders();
     loggingBuilder.AddSimpleConsole(options =>
     {
-        options.IncludeScopes = false; // Exclude scopes
+        options.IncludeScopes = false;
         options.SingleLine = true;
-        options.TimestampFormat = "HH:mm:ss "; // Include only the hour
+        options.TimestampFormat = "HH:mm:ss ";
     });
 });
 

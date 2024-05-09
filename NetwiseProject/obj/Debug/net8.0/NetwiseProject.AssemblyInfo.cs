@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetwiseProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3d462ec61cc145d2a95bd6da07c6c087013d00f")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetwiseProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetwiseProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
