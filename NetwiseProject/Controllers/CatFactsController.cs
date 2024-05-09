@@ -23,6 +23,7 @@ namespace NetwiseProject.Controllers
         {
             _logger.LogInformation("Downloading catFact");
             var fact = await _catFactsClient.DownloadCatFactAsync();
+
             if (fact == null)
             {
                 _logger.LogError("Failed to download a CatFact from the external API.");

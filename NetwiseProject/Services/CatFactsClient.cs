@@ -21,7 +21,7 @@ namespace NetwiseProject.Services
         {
             _logger.LogInformation("Requesting a new cat fact from the API.");
             var request = new RestRequest("/fact");
-            var response = await _client.ExecuteAsync(request).ConfigureAwait(false);
+            var response = await _client.ExecuteAsync(request);
 
             if (response == null || response.StatusCode != HttpStatusCode.OK)
             {
