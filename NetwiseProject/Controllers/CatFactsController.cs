@@ -41,7 +41,7 @@ namespace NetwiseProject.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError($"An error occurred when writing to the file: {ex.Message}");
+                _logger.LogError("An error occurred when writing to the file: {ex.Message}", ex.Message);
                 return StatusCode((int)HttpStatusCode.InternalServerError, "An error occurred while saving the cat fact. Please try again later.");
             }
 
